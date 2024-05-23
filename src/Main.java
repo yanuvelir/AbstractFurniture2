@@ -4,6 +4,6 @@ public class Main {
         Client client = new Client("Mike");
         Furniture furniture = new Chair(TypeOfAssembling.GLUED);
         client.buy(furniture);
-        System.out.println(furniture.getClass());
+        System.out.println(TypeOfAssembling.GLUED);
     }
 }
