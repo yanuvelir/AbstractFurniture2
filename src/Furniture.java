@@ -1,4 +1,4 @@
-public class Furniture {
+public abstract class Furniture {
 
     public String typeOfFurniture;
 

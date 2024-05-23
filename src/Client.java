@@ -6,6 +6,6 @@ public class Client {
     }
 
     public void buy(Furniture f){
-        System.out.println("Client " + name + " buy furniture! ("+ f.getClass().getName() +")");
+        System.out.println("Client " + name + " bought furniture! ("+ f.getClass().getName() +")");
     }
 }
